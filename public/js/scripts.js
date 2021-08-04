@@ -4,7 +4,7 @@
 // a fizikai képek base64-re kódolt verziójával
 // a [0]-k elem pluszban megkapta a background és a két nyíl képét
 
-fetch("adatok.json")
+fetch("./public/data/adatok.json")
             .then(response => response.json())
             .then(data => {
 
